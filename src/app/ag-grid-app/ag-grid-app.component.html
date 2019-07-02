@@ -1,0 +1,11 @@
+<div *ngIf="showGrid">
+    <ag-grid-angular #agGrid 
+    style="width: 1400px; height: 500px; box-sizing: border-box;" 
+    class="ag-theme-fresh"
+    [gridOptions] = "gridOptions"
+    [rowData]="rowData"
+    [rowSelection]="rowSelection"
+    [columnDefs]="columnDefs"
+    [sideBar]="sideBar">
+    </ag-grid-angular>
+</div>
