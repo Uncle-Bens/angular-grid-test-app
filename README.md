@@ -1,6 +1,6 @@
 # Angular Grid App
 
-Clone project.
+Clone project
 Run `npm install`.
 
 ## Development server
